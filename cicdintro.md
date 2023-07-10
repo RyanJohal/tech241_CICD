@@ -97,3 +97,16 @@
   - Enhances communication, coordination, and alignment across teams and stakeholders.
 
 
+# How to create a build on Jenkins
+
+1. On dashboard click new item
+2. Enter name
+3. Select freestyle project
+4. Select discard old builds
+5. Input max builds to keep 3
+6. Go to build and select execute shell
+7. Input linux command
+8. Add a post build action to make if this build is successful
+9. Save and apply
+10. Click build now 
+11. Check command line output
