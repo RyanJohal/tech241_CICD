@@ -8,8 +8,10 @@
 5. Add private ssh key and ensure file name matches.
 6. Change branch to main
 7. In build environment select Provide Node & npm bin/ folder to PATH, and choose Sparta-Node-JS.
+![Alt text](<images/Screenshot 2023-07-11 135253.png>)
 8. Select add build step, execut shell. 
-9. Enter cd app, npm install, npm test
+9.  Enter cd app, npm install, npm test
+![Alt text](<images/Screenshot 2023-07-11 135428.png>)
 10. Save and build.
 
 # Adding webhook to jenkins
@@ -24,3 +26,6 @@
 9. Ensure active box is selected at the bottom
 10. Create webhook
 11. Commit changes to repo to test whether it has worked.
+
+
+![Alt text](<images/Screenshot 2023-07-11 135611.png>)
