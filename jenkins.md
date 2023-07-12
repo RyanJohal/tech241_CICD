@@ -1,4 +1,5 @@
 # Linking jenkins job to github repo
+![Alt text](<images/Screenshot 2023-07-11 135611.png>)
 1. create job
 2. Select github project box and enter repo https link.
 ![Alt text](<images/Screenshot 2023-07-11 133454.png>)
@@ -27,5 +28,23 @@
 10. Create webhook
 11. Commit changes to repo to test whether it has worked.
 
+# Merge branches with jenkins
+1.  Same steps as creating a job
+2.  Enter dev branch
+3.  Add additional behaviours 'merge before build'
+4.  Enter origin in repository and main in branch to merge to
+![Alt text](<images/Screenshot 2023-07-12 142437.png>)
+5. Add post build actions, git publisher.
+6. Select push only if build succeeds and merge results.
+7. Add branches.
+8. Enter branch to push main.
+9. Enter target remote name main.
+![Alt text](<images/Screenshot 2023-07-12 142458.png>)
+10. Build other projects, next project in the pipeline.
+![Alt text](<images/Screenshot 2023-07-12 142512.png>)
 
-![Alt text](<images/Screenshot 2023-07-11 135611.png>)
+# Delivering changes to aws
+1. Create job ![Alt text](<images/Screenshot 2023-07-12 144050.png>)
+![Alt text](<images/Screenshot 2023-07-12 144118.png>)
+2. Add build, execute shell
+![Alt text](<images/Screenshot 2023-07-12 144138.png>)
