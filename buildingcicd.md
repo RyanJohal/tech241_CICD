@@ -24,7 +24,11 @@ sudo apt-get install jenkins
 9. Once logged into jenkins you need to install nodejs plugin and ssh build agents plugin, in addition to the default plugins jenkins has set.
 10. Change node js version to 12 by going manaage jenkins - tools - node js version - 12.x
 11. Add webhook to github payload:http://localip:8080/github-webhook/, content type: application/json, trigger with push and pull.
- 
+
+
+![Alt text](images/workflow.png)
+
+
 ![Alt text](<images/MicrosoftTeams-image (4).png>)
 
 
