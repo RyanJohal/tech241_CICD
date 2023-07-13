@@ -26,10 +26,11 @@ sudo apt-get install jenkins
 11. Add webhook to github payload:http://localip:8080/github-webhook/, content type: application/json, trigger with push and pull.
 
 
-![Alt text](images/workflow.png)
-
 
 ![Alt text](<images/MicrosoftTeams-image (4).png>)
+
+
+![Alt text](images/sdlc.webp)
 
 
 ![Alt text](images/gitworkflow.jpg)
